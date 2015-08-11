@@ -1,0 +1,17 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: $bg;
+	color: $black;
+	font-family: $fontBody;
+	font-kerning: normal;
+	font-size: 1.125em;
+	height: 100%;
+	@include text-size-adjust(none);
+	-webkit-font-smoothing: antialiased;
+	@media (min-width: $small_view) {
+		font-size: $fontSize;
+	}
+}

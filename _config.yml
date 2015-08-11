@@ -1,0 +1,17 @@
+source:        .
+destination:   ./_site
+includes:      ./_includes
+
+markdown:      kramdown
+permalink:     /:title.html
+
+name:          Alexandra D'sa
+base_url:      ""
+url:           http://alexandradsa.com
+description:   Alexandra D'Sa — Actress and Performer
+root_desc:     "Alexandra D'Sa — Actress and Performer"
+
+exclude: ['README.markdown', 'config.rb']
+include: ['.htaccess']
+
+paginate: 10

@@ -1,0 +1,38 @@
+header {
+	display: block;
+	text-transform: lowercase;
+	margin: ($verticalRhythm ) + em auto;
+	width: 100%;
+}
+
+nav {
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	text-align: center;
+	a, a:visited {
+		color: $grey;
+		@include transition(border 200ms, color 200ms ease-out);
+	}
+	a:hover {
+		color: $black;
+		@include transition(border 200ms, color 200ms ease-out);
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			padding: 0;
+			margin: 0 0.8em;
+		}
+		li:last-of-type {
+			margin-right: 0;
+		}
+		li:first-of-type {
+			margin-left: 0;
+		}
+	}
+}

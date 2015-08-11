@@ -1,0 +1,129 @@
+a, a:visited {
+	color: $red;
+	text-decoration: none;
+	@include transition(color 100ms ease-out);
+}
+
+a:hover {
+	color: #99CCFF;
+	@include transition(color 100ms ease-out);
+}
+
+p {
+	font-weight: 400;
+	a {
+		font-weight: 700;
+	}
+}
+
+.selected {
+	color: $red;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote {
+	text-rendering: optimizeLegibility;
+}
+
+/* Header title */
+h1 {
+	display: block;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	a, a:visited {
+		color: $black;
+		@include transition(color 100ms ease-out);
+	}
+	a:hover {
+		color: $red;
+		@include transition(color 100ms ease-out);
+	}
+}
+
+/* post/page header */
+h2 {
+	font-size: $fs2;
+	font-weight: 600;
+	line-height: 1.925925926;
+	margin: 1.925925926em 0 0.962962963em;
+}
+
+/* post/page subheader */
+h3 {
+	font-size: $fs4;
+	font-weight: 400;
+	line-height: 1.238095238;
+	margin: 1.238095238em 0 1.238095238em;
+}
+
+h4, h5 {
+	color: $black;
+	text-align: center;
+	a, a:visited {
+		color: $black;
+	}
+}
+
+h4 {
+	font-size: $fs4;
+	font-weight: 600;
+	margin: 0;
+	a:hover {
+		color: $red;
+	}
+}
+
+h5 {
+	font-size: $fs6;
+	font-weight: 400;
+	margin: 0;
+	a:hover {
+		color: $black;
+	}
+}
+
+h6 {
+	font-size: $fs6;
+	font-weight: 400;
+	line-height: 2.8698em;
+	margin-top: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+ul {
+	list-style-type: disc;
+	margin-bottom: $verticalRhythm + em;
+	li {
+		margin-bottom: ($verticalRhythm / 2) + em;
+	}
+}
+
+ol {
+	list-style-type: decimal;
+	margin-bottom: $verticalRhythm + em;
+}
+
+li {
+	font-weight: 500;
+	line-height: $verticalRhythm;
+	margin-left: 1em;
+}
+
+code {
+	border: 1px solid #dedede;
+	background-color: #efefef;
+	font-family: $fontCode;
+	font-size: $fs5;
+	padding: 0.25em;
+	@include border-radius(5px);
+}
