@@ -1,8 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /bio/
 ---
+
+<img class="alignright" src="http://www.oiphotography.com/blog/081023/IMG_2315.jpg" />
+
+## Bio
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 

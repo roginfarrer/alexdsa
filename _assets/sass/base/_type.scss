@@ -11,6 +11,7 @@ a:hover {
 
 p {
 	font-weight: 400;
+	line-height: $verticalRhythm;
 	a {
 		font-weight: 700;
 	}
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6, blockquote {
 /* Header title */
 h1 {
 	display: block;
-	font-size: 21px;
+	font-size: $fs3;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-align: center;
@@ -54,9 +55,9 @@ h2 {
 /* post/page subheader */
 h3 {
 	font-size: $fs4;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 1.238095238;
-	margin: 1.238095238em 0 1.238095238em;
+	margin: (1.238095238 * 2) + em 0 1.238095238em;
 }
 
 h4, h5 {

@@ -23,3 +23,16 @@
 			 -o-transition: $transition;
 					transition: $transition;
 }
+
+@mixin box-shadow($box-shadow...) {
+	-webkit-box-shadow: $box-shadow;
+		 -moz-box-shadow: $box-shadow;
+					box-shadow: $box-shadow;
+}
+
+@mixin placeholder {
+	::-webkit-input-placeholder {@content}
+	:-moz-placeholder           {@content}
+	::-moz-placeholder          {@content}
+	:-ms-input-placeholder      {@content}  
+}
