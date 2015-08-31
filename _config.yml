@@ -6,11 +6,10 @@ markdown:      kramdown
 permalink:     /:title.html
 
 name:          Alexandra D'sa
-base_url:      "http://roginfarrer.com/alexdsa/"
+base_url:      ""
 url:           http://alexandradsa.com
 description:   Alexandra D'Sa — Actress and Performer
 root_desc:     "Alexandra D'Sa — Actress and Performer"
-source:				 "http://roginfarrer.com/alexdsa/"
 
 exclude: ['README.markdown', 'config.rb']
 include: ['.htaccess']
