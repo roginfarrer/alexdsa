@@ -60,12 +60,12 @@
 	color: #999;
 }
 
-:focus {
-	
-}
-
 #contact-form input:focus, #contact-form textarea:focus {
 	border-color: $red;
 	outline: none;
 	box-shadow: 0 0 5px 1px $red;
+}
+
+.collapse {
+	display: none;
 }
