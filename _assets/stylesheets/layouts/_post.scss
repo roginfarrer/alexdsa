@@ -1,0 +1,22 @@
+.post p {
+	margin-bottom: $verticalRhythm + em;
+}
+
+.post-header {
+	
+}
+
+.post-title {
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.post-meta {
+	margin: 0 auto ($verticalRhythm * 2) + em;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.post-content {
+	
+}

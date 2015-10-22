@@ -2,14 +2,22 @@
 layout: page
 title: "Contact"
 permalink: /contact/
+description: Contact info
 ---
 
-## Contact
+<h3 class="t-center">For professional inquiries, contact:</h3>
 
-Please fill out the form below regarding all business inquiries.
+<div class="t-center">
+<p><strong>Hilary Gagan Associates</strong><br />
+Shiv Coard<br />
+shiv@hgassoc.co.uk<br />
+0207 404 8794</p>
+</div>
+
+<br />
 
 <div id="form-messages"></div>
-
+<p class="t-center"><strong>Or, contact me directly:</strong></p>
 <form id="contact-form" name="form">
 	<div>
 		<label>Name</label>
@@ -46,6 +54,8 @@ It looks like there was an error submitting the form.
 Please try again later.
 </div>
 
+<br />
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
@@ -53,7 +63,7 @@ Please try again later.
 $("#contact-form").validate({
 submitHandler: function(form) {
 $.ajax({
-url: "//formspree.io/rrfarrer@gmail.com", 
+url: "//formspree.io/dsaalexandra@gmail.com", 
 method: "POST",
 data: {
 name: $(form).find("input[name='name']").val(),

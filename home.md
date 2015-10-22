@@ -1,8 +1,0 @@
----
-layout: page
-permalink: /home/
----
-
-<a href="/bio">
-	<img class="hero" src="http://naomihattaway.com/wp-content/uploads/2014/06/mikael-3.jpg" width="600px" />
-</a>

@@ -6,7 +6,6 @@ markdown:      kramdown
 permalink:     /:title.html
 
 name:          Alexandra D'sa
-base_url:      ""
 url:           http://alexandradsa.com
 description:   Alexandra D'Sa — Actress and Performer
 root_desc:     "Alexandra D'Sa — Actress and Performer"
@@ -14,4 +13,20 @@ root_desc:     "Alexandra D'Sa — Actress and Performer"
 exclude: ['README.markdown', 'config.rb']
 include: ['.htaccess']
 
-paginate: 10
+gems:
+- jekyll-assets
+- jekyll-sitemap
+# This will require each of these gems automatically.
+
+assets:
+js_compressor: uglifier
+css_compressor: sass
+cache: true
+cachebust: hard
+
+sitemap:
+file: "/sitemap.xml"
+exclude:
+- "/feed.xml"
+include_posts:
+- "/news/index.html"
