@@ -3,9 +3,9 @@ destination:   ./_site
 includes:      ./_includes
 
 markdown:      kramdown
-permalink:     /:title.html
+permalink:     /:title/
 
-name:          Alexandra D'sa
+name:          Alexandra D'Sa
 url:           http://alexandradsa.com
 description:   Alexandra D'Sa — Actress and Performer
 root_desc:     "Alexandra D'Sa — Actress and Performer"

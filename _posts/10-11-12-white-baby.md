@@ -9,4 +9,7 @@ permalink: white-baby
 
 Tonight, Alex will appear in a staged reading of new Swedish play, **White Baby**, by Sofia Freden. A satirical, ironic look at modern relationships, attitudes to race relations, and politics, White Baby sold out within days. Performing at the Drayton Arms Theatre in South Kensington will be a first for Alex-- as will playing a potty-mouthed, hopeful migrant masquerading as a ten year old girl.
 
-{% image white-baby.jpg class="aligncenter" alt="At rehearsal for White Baby" %}
+<figure class="aligncenter">
+	{% image white-baby.jpg alt="At rehearsal for White Baby" %}
+	<figcaption>photo: David Monteith-Hodge</figcaption>
+</figure>

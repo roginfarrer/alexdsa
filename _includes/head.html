@@ -5,7 +5,7 @@
 	<meta name="author" content="Alexandra D'Sa">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<title>{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 	{% stylesheet style %}
@@ -40,7 +40,7 @@
 	{% javascript jquery.flexslider %}
 
 	<!-- Place in the <head>, after the three links -->
-	<script type="text/javascript" charset="utf-8">
+	<script>
 		// Can also be used with $(document).ready()
 		$(window).load(function() {
 			$('.flexslider').flexslider({

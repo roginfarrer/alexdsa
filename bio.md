@@ -7,10 +7,7 @@ description: About Alexandra D'Sa
 
 ## Bio
 
-<figure class="alignright">
-	{% image headshot.jpg alt="headshot" %}
-	<figcaption>photo: David Monteith-Hodge</figcaption>
-</figure>
+{% image headshot.jpg class="alignright" alt="headshot" %}
 
 Alexandra is a British actress from London, with Portuguese-Indian heritage. Having just acclimatised to living north of the river, she is an East London resident who will never be cool enough to live in East London.
 
