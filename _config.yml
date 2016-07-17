@@ -11,7 +11,7 @@ description:   Alexandra D'Sa — Actress and Performer
 root_desc:     "Alexandra D'Sa — Actress and Performer"
 
 exclude: ['README.markdown', 'config.rb']
-include: ['.htaccess']
+include: ['.htaccess', 'Gemfile']
 
 gems:
 - jekyll-assets
