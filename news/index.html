@@ -1,3 +1,29 @@
 ---
-layout: blog
+layout: default
+title: Latest News
+permalink: /news/
+description: Latest news and updates from Alexandra D'Sa
 ---
+
+<div class="post">
+
+	<h2 class="page-heading">Latest News</h2>
+
+	<article class="post-list">
+		{% for post in site.posts %}
+
+		<div class="post-list-item">
+			<div class="block">
+				<h2 class="post-title">
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+				<h5 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</h5>
+			</div>
+			<div class="post-content">
+				{{ post.content }}
+			</div>
+		</div>
+	</article>
+	{% endfor %}
+
+</div>

@@ -1,0 +1,71 @@
+#contact-form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact-form label {
+	display: none;
+	@media (min-width: 40rem) {
+		width: 24%;
+		text-align: right;
+		padding-right: 1em;
+		display: none;
+		vertical-align: middle;
+	}
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"] {
+	text-align: center;
+	width: 50%;
+}
+
+#contact-form textarea {
+	width: 75%;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	border:1px solid #CCC;
+	background:$bg;
+	margin: 0.5em auto;
+	padding:10px;
+	@include border-radius(5px);
+	@include box-shadow(inset 0 1px 2px #DDD, 0 1px 0 #FFF);
+	@include transition(box-shadow 2s ease-in-out);
+	-webkit-appearance: textfield;
+}
+
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	display: block;
+	width:10em;
+	border:none;
+	background:$red;
+	color:#FFF;
+	padding:10px;
+	margin: 1em auto;
+	@include border-radius(5px);
+	&:hover {
+		background: rgba($red, 0.85);
+	}
+}
+
+@include placeholder {
+	color: #999;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+	border-color: $red;
+	outline: none;
+	box-shadow: 0 0 5px 1px $red;
+}
+
+.collapse {
+	display: none;
+}
