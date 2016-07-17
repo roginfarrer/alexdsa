@@ -1,13 +1,13 @@
 ---
-layout: page
 title: About
-permalink: /bio/
+layout: page
+permalink: "/bio/"
 description: About Alexandra D'Sa
 ---
 
 ## Bio
 
-{% image headshot.jpg class="alignright" alt="headshot" %}
+![Alexandra D'Sa]({{ site.baseurl }}/forestryio/images/headshot.jpg){: .alignleft }
 
 Alexandra is a British actress from London, with Portuguese-Indian heritage. Having just acclimatised to living north of the river, she is an East London resident who will never be cool enough to live in East London.
 
