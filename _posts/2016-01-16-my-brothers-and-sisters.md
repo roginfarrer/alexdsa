@@ -4,7 +4,7 @@ date: '2016-01-16 00:00:00'
 layout: post
 permalink: my-brothers-and-sisters
 ---
-![My Brothers & Sisters]({{ site.baseurl }}/_assets/images/my-bros-sis.jpg){: .alignright }
+![My Brothers & Sisters]({{ site.baseurl }}/forestryio/images/my-bros-sis.jpg){: .alignright }
 
 Today, Alex starts a two-week run of "My Brothers & Sisters", a one-act play about radicalisation at Sarah Siddons Theatre, Edgeware Road. 
 
