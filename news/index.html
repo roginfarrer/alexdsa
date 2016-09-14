@@ -1,9 +1,10 @@
 ---
-title: Latest News
 layout: default
-permalink: "/news/"
+title: Latest News
+permalink: /news/
 description: Latest news and updates from Alexandra D'Sa
 ---
+
 <div class="post">
 
 	<h2 class="page-heading">Latest News</h2>
@@ -14,12 +15,13 @@ description: Latest news and updates from Alexandra D'Sa
 		<div class="post-list-item">
 			<div class="block">
 				<h2 class="post-title">
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title&nbsp;}}</a>
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				</h2>
-				<h5 class="post-meta">{{ post.date | date: "%b&nbsp;%11&nbsp;%Y" }}</h5>
+				<h5 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</h5>
 			</div>
 			<div class="post-content">
-				{{post.content}}</div>
+				{{ post.content }}
+			</div>
 		</div>
 	</article>
 	{% endfor %}
