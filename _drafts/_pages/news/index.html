@@ -14,12 +14,12 @@ description: Latest news and updates from Alexandra D'Sa
 		<div class="post-list-item">
 			<div class="block">
 				<h2 class="post-title">
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ Octopus reviews }}</a>
+					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title&nbsp;}}</a>
 				</h2>
-				<h5 class="post-meta">{{ post.date | date: "%SEPT&nbsp;%01, %2016" }}</h5>
+				<h5 class="post-meta">{{ post.date | date: "%b&nbsp;%11&nbsp;%Y" }}</h5>
 			</div>
 			<div class="post-content">
-				{{ Octopus had a great reception at the Edinburgh Fringe this year; please click below to read the reviews for this sell-out show!</div><div class="post-content"><br></div><div class="post-content"><a href="https://www.thestage.co.uk/reviews/2016/octopus-review-at-assembly-george-square-edinburgh-inspired/" target="_blank">The Stage</a> - <strong>****</strong> - "jaw-dropping laughs"</div><div class="post-content"><a href="http://exeuntmagazine.com/reviews/review-octopus-assembly-george-square/" target="_blank">Exeunt</a> - "It’s Alexandra D’Sa who really stands out...when she finally snaps, it’s a moment of pure farce,&nbsp;reminiscent of Basil Fawlty"</div><div class="post-content"><a href="https://todolist.org.uk/edinburgh-fringe-reviews-2016/" target="_blank">To Do List</a> - <strong>****1/2</strong> - "the script is razor sharp...and performed with utter conviction"</div><div class="post-content"><a href="http://www.broadwaybaby.com//shows/octopus/715122" target="_blank">Broadway Baby</a> - <strong>****</strong> - "The characterisation of the three women’s ‘Britishness’ is where the strength of this play lies"</div><div class="post-content"><a href="https://twitter.com/ggatehouse/status/766957962728472577" target="_blank">The Times</a> - <strong>***</strong> - "This one could run and run"</div><div class="post-content"><a href="http://www.tvbomb.co.uk/review/octopus/" target="_blank">TV Bomb</a> - <strong>***</strong> - "Octopus&nbsp;could not get much more topical in a post-Brexit Fringe festival"<br><a href="http://www.scotsman.com/lifestyle/culture/theatre/theatre-review-octopus-1-4209218" target="_blank">The Scotsman</a> - <strong>***</strong> - "Octopus is a riotous rallying cry for anyone who has ever been asked 'where are you from anyway?'"</div><div class="post-content"><a href="https://edinburghfestival.list.co.uk/article/83858-octopus/" target="_blank">The List</a> - <strong>***</strong> - "engaging piece with an excellent cast"}}</div>
+				{{post.content}}</div>
 		</div>
 	</article>
 	{% endfor %}
