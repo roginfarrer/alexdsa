@@ -5,7 +5,7 @@ layout: post
 ---
 Octopus had a great reception at the Edinburgh Fringe this year; please click below to read the reviews for this sell-out show!
 
-![]({{ site.baseurl }}/images/13620126_10157210847240243_3648012152629289871_n.jpg)
+![]({{ site.baseurl }}/images/204-Zuleika-Henry-Paper-Tiger-Octopus,large.jpg)
 
 [The Stage](https://www.thestage.co.uk/reviews/2016/octopus-review-at-assembly-george-square-edinburgh-inspired/) - "jaw-dropping laughs"
 
