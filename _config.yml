@@ -10,7 +10,7 @@ url:           http://alexandradsa.com
 description:   Alexandra D'Sa — Actress and Performer
 root_desc:     "Alexandra D'Sa — Actress and Performer"
 
-exclude: ['README.markdown', 'config.rb']
+exclude: ['README.markdown', 'config.rb', 's3_website.yml']
 include: ['.htaccess', 'Gemfile']
 
 gems:
