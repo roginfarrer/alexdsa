@@ -13,9 +13,9 @@ Click 
 
 <span style="font-size: 1rem;">for more details on where you can see&nbsp;</span>
 
-<em style="font-size: 1rem;">Octopus</em>
+<em style="font-size: 1rem;">Octopus!</em>
 
-<span style="font-size: 1rem;">! The tour is kindly supported by Arts Council England and is co-produced by the Greenwich Theatre.</span>![](80-Zuleika-Henry-Paper-Tiger-Octopus,medium_large-2.jpg)
+<span style="font-size: 1rem;"> The tour is kindly supported by Arts Council England and is co-produced by the Greenwich Theatre.</span>![]({{ site.baseurl }}/images/80-Zuleika-Henry-Paper-Tiger-Octopus,medium_large-2.jpg)
 
 
 <span style="font-size: 1rem;"><br></span>
