@@ -10,19 +10,12 @@ After a hugely successful month at Edinburgh Fringe Festival 2016, and London tr
 Alex will be reprising her role as Sara, a highly responsible (and slightly right-leaning) accountant who is waiting for her citizenship interview with two other women in a post-Brexit Britain.
 
 Click 
-
 <a href="http://www.papertiger.org.uk/blog/announcing-octopus-tour-2017" style="font-size: 1rem; background-color: rgb(255, 255, 255);">here</a> 
-
 <span style="font-size: 1rem;">for more details on where you can see&nbsp;</span>
-
 <em style="font-size: 1rem;">Octopus!</em>
 
 <span style="font-size: 1rem;"> The tour is kindly supported by Arts Council England and is co-produced by the Greenwich Theatre.</span>
-
-
 <img src="{{ site.baseurl }}/images/80-Zuleika-Henry-Paper-Tiger-Octopus,medium_large-2.jpg" alt="" style="float: left;">
-
-
 
 <span style="font-size: 1rem;"><br></span>
 
