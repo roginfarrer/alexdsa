@@ -1,0 +1,15 @@
+---
+pages:
+- _posts/watch-out-for-pc-khan.md
+- _posts/2017-07-12-ackley-bridge.md
+- _posts/test-1.md
+- _posts/2017-04-02-alex-on-channel-4-1.md
+- _posts/2017-04-02-octopus-uk-tour.md
+hide_body: false
+fields:
+- name: ''
+  type: datetime
+- name: ''
+  type: text
+- name: ''
+  type: file
