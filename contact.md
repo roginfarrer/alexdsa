@@ -6,7 +6,7 @@ description: Contact info
 ---
 <h3 class="t-center">For professional inquiries, contact:</h3>
 
-<div class="t-center"> <p><strong>Jackie Williamson</strong><br /> Williamson & Holmes<br /> info@whlondon.co.uk <br /> 0207 404 8794</p> </div>
+<div class="t-center"> <p><strong>Jackie Williamson</strong><br /> Williamson & Holmes<br /> info@whlondon.co.uk <br /> 020 7240 0407</p> </div>
 
 <br />
 
