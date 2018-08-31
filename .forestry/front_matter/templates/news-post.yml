@@ -1,4 +1,5 @@
 ---
+label: News post
 hide_body: false
 is_partial: false
 fields:
@@ -9,8 +10,8 @@ fields:
 - name: ''
   type: file
 pages:
-- _posts/2018-01-07-watch-out-for-pc-khan.md
-- _posts/2017-07-12-ackley-bridge.md
-- _posts/test-1.md
-- _posts/2017-04-02-alex-on-channel-4-1.md
 - _posts/2017-04-02-octopus-uk-tour.md
+- _posts/2017-04-02-alex-on-channel-4-1.md
+- _posts/2017-07-12-ackley-bridge.md
+- _posts/2018-01-07-watch-out-for-pc-khan.md
+- _posts/test-1.md
