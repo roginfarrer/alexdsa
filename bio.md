@@ -11,7 +11,7 @@ description: About Alexandra D'Sa
 
 Alexandra is a stage and screen actress from London.
 
-But where is she _from_ from? Alex has Goan (Portuguese-Indian) heritage, unfortunately she doesn't speak the language but does make a mean curry.
+But where is she _from_ from? Alex has Goan (Portuguese-Indian) heritage, unfortunately she doesn't speak the language but does make a mean curry. 
 
 In her spare time Alex enjoys studying critical, feminist, and queer theory; she occasionally dabbles in producing and writing, is a [Stonewall](https://www.stonewall.org.uk/) Role Model and Co-Founder of SHADES -- an organisation for South Asian creatives in the UK.
 
